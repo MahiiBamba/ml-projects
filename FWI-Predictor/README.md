@@ -9,17 +9,17 @@ It includes data preprocessing, feature engineering, model training, evaluation,
 ## 🧩 Repository Structure
 ```
 FWI-Predictor/
-├── dataset/
-│ ├── fwi_dataset_asitwas.csv
-│ └── cleaned_dataset.csv
-├── documentation/
-│ └── fwi_Doc_(Mansi_Bambal).docx
-├── AI-Tempest.pdf
-├── fwi_predictor(Mansi_Bambal).ipynb
+├── fwi_dataset_asitwas.csv
+├── fwi_predictor_nb.ipynb
 ├── ridge.pkl
 ├── scaler.pkl
-├── requirements.txt
-└── LICENSE
+├── static
+│ └── style.css
+├── templates
+│ ├── index.html
+│ └── home.html
+└──  requirements.txt
+
 ```
 
 
@@ -60,10 +60,8 @@ To develop a regression-based model that accurately predicts the **Fire Weather 
 ### Steps
 ```bash
 # Clone the repository
-git clone https://github.com/Aspire-Infolabs/FWI_PREDICTION.git
-cd FWI_PREDICTION
-
-git checkout mansi-bambal
+git clone https://github.com/MahiiBamba/ml-projects.git
+cd ml-projects/FWI-Predictor
 
 # Install dependencies
 pip install -r requirements.txt
