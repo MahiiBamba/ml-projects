@@ -13,6 +13,7 @@ FWI-Predictor/
 ├── fwi_predictor_nb.ipynb
 ├── ridge.pkl
 ├── scaler.pkl
+├── app.py
 ├── static
 │ └── style.css
 ├── templates
